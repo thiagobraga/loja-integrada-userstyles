@@ -1,2 +1,43 @@
 // Layout
 // =====================================================
+
+body {
+  background-color: #fff;
+}
+
+.barra-inicial {
+  display: none;
+}
+
+#cabecalho {}
+
+.secao-banners {}
+
+#corpo {}
+
+#rodape {
+  .institucional {
+    display: none;
+  }
+}
+
+#barraTopo {}
+
+.canais-contato {
+  display: none;
+}
+
+.busca {
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+
+  .botao-busca {
+    right: 0;
+    top: 0;
+  }
+
+  input {
+    width: 95%;
+  }
+}
